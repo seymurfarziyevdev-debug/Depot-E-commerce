@@ -1537,7 +1537,7 @@ background-image: url(../image/faq-title-img.jpg);
 
 }
 .price{
-    margin-left: 61%;
+    margin-left: 58%;
 }
 
   .item-title h3 {
@@ -1555,7 +1555,10 @@ background-image: url(../image/faq-title-img.jpg);
   }
 
   .prd{
-        margin-left: 26px;
+        width: 289px;
+        height: 355px;
+        margin-left:50px;
+        margin-bottom: 100px;
   }
   #backToTopBtn{
         width:12% !important;
@@ -1565,7 +1568,7 @@ background-image: url(../image/faq-title-img.jpg);
     display: none;
   }
   .addtocart{
-        margin-left: 23%;
+        margin-left: 18%;
         opacity: 1;
         i{
             margin-left: 10px;
@@ -1582,8 +1585,15 @@ background-image: url(../image/faq-title-img.jpg);
     }
   }
   .sld{
-    width: 321px !important;
+   width: 400px !important;
+    margin-left: 7px;
   }
+
+  .prd img {
+            width: 289px;
+        height: 355px;
+        margin-left: 0px;
+}
   .products{
     margin-top: 100%;
   }
@@ -1603,7 +1613,7 @@ background-image: url(../image/faq-title-img.jpg);
             display: flex !important;
             flex-direction: row !important;
             flex-wrap: wrap;
-            margin-left: 30px !important;
+            margin-left: 48px !important;
 
         li{
             width: 63% !important;
@@ -1661,7 +1671,7 @@ background-image: url(../image/faq-title-img.jpg);
         align-items: center;
         background: #fff;
         margin-left: 0px;
-          width: 318px;
+          width: 409px;
         .logo{
             margin-top: 40px;
             margin-left: -115px;
@@ -1669,7 +1679,7 @@ background-image: url(../image/faq-title-img.jpg);
         }
         ul{
             width: 100%;
-            margin-right: 128px;
+            margin-right: 65px;
             display: flex;
 
               li:last-child {
@@ -1690,11 +1700,11 @@ background-image: url(../image/faq-title-img.jpg);
     padding-left: 0px;
     }
     #searchlink{
-            position: absolute;
-    width: 100%;
+    position: absolute;
+    width: 92%;
     opacity: 0;
     height: 55px;
-    right: -25px;
+    right: 14px;
     top: 95px;
     transition: 0.5s;
     }
